@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+/* Apply styles to the table */
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px; /* Set maximum width for responsiveness */
+    margin: 0 auto;
+}
+
+/* Style the table header */
+.styled-table th {
+    background-color: #7a8cc4;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style alternating rows */
+.styled-table tbody tr:nth-child(even) {
+    background-color: #7a8cc4;
+}
+
+/* Style table data cells */
+.styled-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect on table rows */
+.styled-table tbody tr:hover {
+    background-color: #9c72c4;
+}
